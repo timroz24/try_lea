@@ -1,0 +1,16 @@
+<!-- Save this as public/lea-logo.svg -->
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lea-gradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8e2de2"/>
+      <stop offset="1" stop-color="#ff6a00"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M64 12c3.6 0 7.1 1.9 9 5l43.2 74.9c1.9 3.2 1.9 7.1 0 10.3-1.9 3.2-5.3 5.1-9 5.1H20.8c-3.7 0-7.1-1.9-9-5.1-1.9-3.2-1.9-7.1 0-10.3L55.9 17c1.9-3.1 5.4-5 9-5zm0 10.4c-1.1 0-2.2.6-2.7 1.5L18.1 98.8c-.6 1-.6 2.2 0 3.2.6 1 1.6 1.6 2.7 1.6h86.4c1.1 0 2.1-.6 2.7-1.6.6-1 .6-2.2 0-3.2L66.7 13.9c-.6-.9-1.6-1.5-2.7-1.5z"
+    fill="url(#lea-gradient)"
+  />
+  <rect x="38" y="44" width="14" height="40" rx="7" fill="#fff"/>
+  <rect x="54" y="72" width="36" height="12" rx="6" fill="#fff"/>
+  <polygon points="74,44 92,72 56,72" fill="#fff"/>
+</svg>
