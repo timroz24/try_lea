@@ -12,7 +12,7 @@ const Hero = () => {
                     style={{ display: 'inline-block' }}
                 />
 
-                <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 animate-fadeIn gradient-text">
+                <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 animate-fadeIn bg-gradient-to-r from-[#8e2de2] to-[#ff6a00] bg-clip-text text-transparent">
                     Meet LEA.
                 </h1>
             </div>
