@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="min-h-screen flex flex-col justify-center items-center px-6 text-center bg-gradient-to-b from-black to-gray-900">
             <div className="flex items-center justify-center mb-6 animate-fadeIn">
                 <img
-                    src="/lea-logo-transparent.png"
+                    src="/lea-logo.webp"
                     alt="LEA Logo"
                     className="w-16 h-16 md:w-20 md:h-20 mr-3 -mt-4 p-3 rounded-lg"
                     style={{ display: 'inline-block' }}
