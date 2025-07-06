@@ -1,40 +1,5 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "build"
-            }
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/api/(.*)",
-            "destination": "/api/$1"
-        },
-        {
-            "source": "/static/(.*)",
-            "destination": "/static/$1"
-        },
-        {
-            "source": "/favicon.ico",
-            "destination": "/favicon.ico"
-        },
-        {
-            "source": "/manifest.json",
-            "destination": "/manifest.json"
-        },
-        {
-            "source": "/lea-logo.svg",
-            "destination": "/lea-logo.svg"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ],
     "headers": [
         {
             "source": "/static/(.*)",
